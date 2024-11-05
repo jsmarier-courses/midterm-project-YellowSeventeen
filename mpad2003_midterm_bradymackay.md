@@ -13,13 +13,22 @@ Over the course of the month of august 2024 the City of Ottawa has recorded thei
 
 * [The City of Ottawa's 2024 Service Requests](https://www.arcgis.com/home/item.html?id=65fe42e2502d442b8a774fd3d954cac5)
 * [The Provided, Reduced Dataset of Only Data From August 2024](https://raw.githubusercontent.com/jsmarier/course-datasets/refs/heads/main/ottawa-311-service-requests-august-2024.csv)
-
+* [My Own Document](https://docs.google.com/spreadsheets/d/18DKm0AUgxz66YUWfJEMt_JMu6t9Rvz7rFFsmHvPhXy0/edit?usp=sharing)
 
 ## Getting the Data Yourself
 
-To start on your own journeyof analyzing this data you'll need to download the data, to do that you'll follow the link above labeled "The Provided, Reduced Dataset of Only Data From August 2024" and if you're connected to the internet you'll find yourself on this screen:<br> <br>
+To start on your own journey of analyzing this data you'll need to download the data, to do that you'll follow the link above labeled "The Provided, Reduced Dataset of Only Data From August 2024" and if you're connected to the internet you'll find yourself on this screen:<br> <br>
 ![](<Screenshot 2024-11-05 105452.png>)
-From there you'd want to rightclick to open the little selection menu and then locate "save as" and click that, and now you've officially downloaded the csv file!<br>
+From there you'd want to rightclick to open the little selection menu and then locate "save as" and click that, and now you've officially downloaded the csv file!<br><br>
+Now you'll open up a google sheet, name it apropiately and then fine your way to the "file" tab, and from there find the "import" button, once you click on that you'll have to upload the file and wait for it to finish.<br> <br> 
+![](<Screenshot 2024-11-05 115907.png>)<br>
+Now all there is to do is to set the import location to "Append to current sheet" and your separator type to comma and then just click the import button and your Table should look like this!<br> <br>
+![alt text](<Screenshot 2024-11-05 170049.png>)<br><br>
+### Observations 
+
+Now that we both have the data we can make a couple observations about the content, taking a look at it couple things stand out; the sheer amount of rows, 28538 in the narrowed data to be exact that compared to the 11 columbs it's a huge amount of data to parse through. If you look closely at the dates after scrolling all the way to the bottom you can tell that it doesn't end in august, there is a single datapoint for September first. Other than that outliers though the data looks clean! 
+<br><br> a couple things to note though, it's very telling that according to this that over 10% of service requests are still active 3 months later! And beyond that 1% of all requests are cancelled. There are 12 different types of requests, including ones that are non-valued but the only two that are like that are "Property Standards - Grass Long/Weeds." and when we're looking at specific addresses only 2% had more than one service call during the month of august and the place with the most is 99 Cobourg St, "MacDonalds Gardens Park" with 18 calls, because it seems to need a lot of maintenence and is a high traffic grafitti spot.  <br><br>
+It makes you wonder, how many calls do they get a day if there are so many entries in just august? does anything specific happen to make the flow of calls increase? what makes a specific place more likely to make calls? I'd think it might be related to the daily events around the location, like a tree falling would get significantly more calls about it.
 
 ## 2. Getting Data
 
