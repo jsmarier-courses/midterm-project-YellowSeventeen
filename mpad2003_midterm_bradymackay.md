@@ -1,30 +1,25 @@
-**Date**<br>
-**Course Code & Course Name**<br>
-**Student's First Name & Last Name**<br>
-**Presented to Jean-Sébastien Marier**<br>
+**Date:** 04/11/2024 <br>
+**Course Code & Course Name:** MPAD2003A Introductory Data Storytelling (WKS)<br>
+**Student's First Name & Last Name:** Brady Mackay<br> 
+**Presented to:** Jean-Sébastien Marier<br>
 
-# Midterm Project: Exploratory Data Analysis (EDA)
+# Midterm Project: Exploratory Data Analysis
 
-Use one hashtag symbol (`#`) to create a level 1 heading like this one.
 
-## Foreword
+## What is the dataset? <br>
+The dataset is a collection of requests for services that require action by government workers. And I will be specifically taking a look at it's relationship between the date of the requestand it's description, and whether I can find real life for the flow-change <br>
 
-For this assignment, you must extract data from a dataset provided by the instructor. You must then clean and analyze the data, create exploratory charts/visualizations, and find a potential story idea. Your assignment must clearly detail your process. You are expected to write about 1500-2000 words, and to include several screen captures showing the different steps you went through. Your assignment must be written with the Markdown format and submitted on GitHub Classroom.
+Over the course of the month of august 2024 the City of Ottawa has recorded their requests from civilians through 311 Contact Centre, Client Service Centre, 311 Email, and Web-based Self- Service portal. It features information such as the Type of call, Where the report came from, and it's request ID. it also has over 28 000 entries making it quite the dificult set to piece through
 
-I have been assigning different versions of this project to my digital journalism and data storytelling students for a few years now. Its structure was inspired by the main sections/chapters of [*The Data Journalism Handbook*](https://datajournalism.com/read/handbook/one/). This version was further inspired by the [Key Capabilities in Data Science](https://extendedlearning.ubc.ca/programs/key-capabilities-data-science) program offered by the University of British Columbia (UBC).
+* [The City of Ottawa's 2024 Service Requests](https://www.arcgis.com/home/item.html?id=65fe42e2502d442b8a774fd3d954cac5)
+* [The Provided, Reduced Dataset of Only Data From August 2024](https://raw.githubusercontent.com/jsmarier/course-datasets/refs/heads/main/ottawa-311-service-requests-august-2024.csv)
 
-**Here are some useful resources for this assignment:**
 
-* [GitHub's *Basic writing and formatting syntax* page](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-* [The template repository for this assignment in case you delete something by mistake](https://github.com/jsmarier/jou4100_jou4500_mpad2003_project2_template)
+## Getting the Data Yourself
 
-Did you notice how to create a hyperlink? In Markdown, we put the clickable text between square brackets and the actual URL between parentheses.
-
-And to create an unordered list, we simply put a star (`*`) before each item.
-
-## 1. Introduction
-
-Insert text here.
+To start on your own journeyof analyzing this data you'll need to download the data, to do that you'll follow the link above labeled "The Provided, Reduced Dataset of Only Data From August 2024" and if you're connected to the internet you'll find yourself on this screen:<br> <br>
+![](<Screenshot 2024-11-05 105452.png>)
+From there you'd want to rightclick to open the little selection menu and then locate "save as" and click that, and now you've officially downloaded the csv file!<br>
 
 ## 2. Getting Data
 
