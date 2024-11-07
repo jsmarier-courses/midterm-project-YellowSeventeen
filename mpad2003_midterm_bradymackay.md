@@ -60,20 +60,26 @@ this is a newer version to look at the descriptions within the types and see wha
 
 **My Exploratory Chart**<br>
 
-![alt text](chart.png) This chart (poorly) depicts the second pivot chart above, viewing each total next to eachother allows for a better picture.
+![](chart.png) This chart (poorly) depicts the second pivot chart above, viewing each total next to eachother allows for a better picture.
 
 ## 4. Potential Story
 
-Insert text here.
+**MacDonald Gardens Park, Is It Really That Run Down?** <br>
+You're walking down Cobourg Street with your family and you find yourself passing a familiar park, MacDonald Gardens Park, but it's not quite the same, it's a little different. there's a huge sheet of plastic wrap wrapped around trees with graffiti on it! (that actually did happen 12 years ago) you remember that not to long ago there was a consultation and survey for a potential plan to improve this park in the future and you think this needs to go to their attention. hours late after the family outing you still find yourself thinking about it and see if you can look that survey up, see if you could possibly still get a word in, sadly, it was closed months ago, but there is a page that you find with a status update in the progression of the potential work and it offers a comment section that allows for suggestions to be brought up! You feel good about going down this rabbit hole, and helping your city. though that tale wasn't necesarily true, it is my best (with evidence) theory about why there were so many service calls for MacDonald Gardens Park, all but one of the eighteen were web based suggestions and I found this update on the conservation plan by searching up keywords! I'm honestly quite proud of my find.
+<br>
+* [Macdonald Gardens Park - Park Conservation Plan](https://engage.ottawa.ca/macdonald-gardens-park-park-conservation-plan?tool=guest_book)
+* [Reddit post depicting the graffiti](https://www.reddit.com/r/ottawa/comments/9n9ppw/grafiti_i_saw_on_saran_wrap_between_2_trees_in/)
+
 
 ## 5. Conclusion
 
-Insert text here.
+After I got to work on this project I genuinely started to have a lot of fun, finding connections between the data and real life made me... embarrasingly excited. <br>
+The most challenging part of this assignment for me was getting started, looking at the sheer amount it looked so great so many words, so many tasks, so many charts, it was really quite scary. Once I started going I found how stupidly fun it was. A more physical thing that troubled me was a proble I had during class on the 6th, I panicked because I just couldn't figure out why there were no descriptions for the latter half of my data!!! it took me way too wrong to find out I copied the data wrong and messed up when I was doing the split function. <br>
+If I could do it again I would definetly make my scope wider, accounting for more datapoints, finding more connections. But to do that, I would have needed to start earlier, so that's a thing I really need to work on, I also need to work on remembering in class discussion more so I could have more examples of this type of things. but in the end I had fun! 
 
 ## 6. References
 
-Include a list of your references here. Please follow [APA guidelines for references](https://apastyle.apa.org/style-grammar-guidelines/references). Hanging paragraphs aren't required though.
+Correia, D. (n.d.). Macdonald Gardens Park - Park Conservation Plan. Engage Ottawa. https://engage.ottawa.ca/macdonald-gardens-park-park-conservation-plan?tool=guest_book 
+<br>
+u/Solarbg. (2018, October 11). Grafiti i saw on saran wrap between 2 trees in MacDonad Gardens Park (picture from 6 years ago). Reddit. https://www.reddit.com/r/ottawa/comments/9n9ppw/grafiti_i_saw_on_saran_wrap_between_2_trees_in/ 
 
-**Here's an example:**
-
-Bounegru, L., & Gray, J. (Eds.). (2021). *The Data Journalism Handbook 2: Towards A Critical Data Practice*. Amsterdam University Press. [https://ocul-crl.primo.exlibrisgroup.com/permalink/01OCUL_CRL/hgdufh/alma991022890087305153](https://ocul-crl.primo.exlibrisgroup.com/permalink/01OCUL_CRL/hgdufh/alma991022890087305153)
