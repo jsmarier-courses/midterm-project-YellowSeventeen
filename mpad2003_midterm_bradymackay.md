@@ -30,43 +30,21 @@ Now that we both have the data we can make a couple observations about the conte
 <br><br> a couple things to note though, it's very telling that according to this that over 10% of service requests are still active 3 months later! And beyond that 1% of all requests are cancelled. There are 12 different types of requests, including ones that are non-valued but the only two that are like that are "Property Standards - Grass Long/Weeds." and when we're looking at specific addresses only 2% had more than one service call during the month of august and the place with the most is 99 Cobourg St, "MacDonalds Gardens Park" with 18 calls, because it seems to need a lot of maintenence and is a high traffic grafitti spot.  <br><br>
 It makes you wonder, how many calls do they get a day if there are so many entries in just august? does anything specific happen to make the flow of calls increase? what makes a specific place more likely to make calls? I'd think it might be related to the daily events around the location, like a tree falling would get significantly more calls about it.
 
-## 2. Getting Data
+## 3. Understanding Deep Dive
 
-Use two hashtag symbols (`##`) to create a level 2 heading like this one.
+### 3.1. Analysing Data Using the VIMO Method
 
-To include a screen capture, use the sample code below. Your images should be saved in the same folder as your `.md` file.
+Now, let's get into the thick of the data using the VIMO strategy!<br>
+To start, we must identify if datapoints are valid, we look to see if any content is blank or missing or outside of the valid range. VIMO stands for: Valid, Invalid, Missing, Outlier, we will be mostly concentrating on the date the case was opened, and the description of the problem. <br>The Date Opened: as we talked about before, almost every single date is valid, none are written as something other than a date, and none are missing entirely, but there is a single outlier, the one date outside of August, a call on September first, clearly a mistake by whomever reduced this data. and now the description: again, most datapoints are valid, there are no clearly invalid descriptions, there are no outliers, but there is a strange pattern of missing data. it seems like after august 21 many calls under the type "water and the environment" were left descriptionless, it's very strange that it's only after a certain date, all "water and the environment" type calls got a description in the early days of the month, sadly, we can only speculate what occured
 
-![](import-screen-capture.png)<br>
-*Figure 1: The "Import file" prompt on Google Sheets.*
+### 3.2. Spring Cleaning
 
-**Here are examples of functions and lines of code put in grey boxes:**
+Now to clean up these datapoints we identified as invalid with the VIMO method. the first strategy I employ is to create a filter on the descriptions tab and filter out all of the missing datapoints, though there weren't many there were still enough to mess with the data. Since there was only a single point that is outside of our date range, we'll employ the fool-proof method of manually seaching and deleting it, which for a small number of invalid datapoints is the most effective. I also removed the longitude and latitude columbs due to the fact that they effect very few datapoints. that last thing I did was use the =SPLIT command to remove the french part of the description columb as no other columb had that and it was just cluttering up the visual of the table
 
-1. If you name a function, put it between "angled" quotation marks like this: `IMPORTHTML`.
-1. If you want to include the entire line of code, do the same thing, albeit with your entire code: `=IMPORTHTML("https://en.wikipedia.org/wiki/China"; "table", 5)`.
-1. Alternatively, you can put your code in an independent box using the template below:
+**Refrences**
 
-``` r
-=IMPORTHTML("https://en.wikipedia.org/wiki/China"; "table", 5)
-```
-This also shows how to create an ordered list. Simply put `1.` before each item.
-
-## 3. Understanding Data
-
-### 3.1. VIMO Analysis
-
-Use three hashtag symbols (`###`) to create a level 3 heading like this one. Please follow this template when it comes to level 1 and level 2 headings. However, you can use level 3 headings as you see fit.
-
-Insert text here.
-
-Support your claims by citing relevant sources. Please follow [APA guidelines for in-text citations](https://apastyle.apa.org/style-grammar-guidelines/citations).
-
-**For example:**
-
-As Cairo (2016) argues, a data visualization should be truthful...
-
-### 3.2. Cleaning Data
-
-Insert text here.
+![](<Screenshot 2024-11-06 185139.png>)
+=SPLIT(D?, "|")
 
 ### 3.3. Exploratory Data Analysis (EDA)
 
