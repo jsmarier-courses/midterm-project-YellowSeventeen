@@ -46,19 +46,21 @@ Now to clean up these datapoints we identified as invalid with the VIMO method. 
 ![](<Screenshot 2024-11-06 185139.png>)
 =SPLIT(D?, "|")
 
-### 3.3. Exploratory Data Analysis (EDA)
+### 3.3. The exploration
 
-Insert text here.
+Exploring this data has revealed some interesting information! such as the fact that I shared originally about the location with the highest amount of outgoing calls, the MacDonalds Gardens Park, but about 2% of places call twice in this month. Upon seeing the data I was right away interested in seeing if any events had caused more incoming service calls on that specific days, like a storm or a crime. It was pointed out to me that the reason why a couple days had more calls than others is probably because they were closer to the weekend and when I looked I found out that the lowest days to call in were mondays and tuesdays, which is right when the week starts. I think there's deifinetly a potential story waiting in either MacDoalds Gardens Park calling so often and why that was, or looking to find if any events occured that caused more calls on that day or following couple. I am going to go on to put more reasearch into Macdonalds Gardens Park, and adding other keywords like grafitti or maintenece.
 
-**This section should include a screen capture of your pivot table, like so:**
+**My Pivot Tables**
+<br>
+this is the pivot table I made at the very start of the project as I was getting aclimatized to the dataset and I really liked the questions it raised for me, I'll get more into those in the story section
+![](<Screenshot 2024-11-06 192709.png>) <br>
+<br>
+this is a newer version to look at the descriptions within the types and see what gets called most, quite facinating.
+![](<Screenshot 2024-11-06 193322.png>)
 
-![](pivot-table-screen-capture.png)<br>
-*Figure 2: This pivot table shows...*
+**My Exploratory Chart**<br>
 
-**This section should also include a screen capture of your exploratory chart, like so:**
-
-![](chart-screen-capture.png)<br>
-*Figure 3: This exploratory chart shows...*
+![alt text](chart.png) This chart (poorly) depicts the second pivot chart above, viewing each total next to eachother allows for a better picture.
 
 ## 4. Potential Story
 
